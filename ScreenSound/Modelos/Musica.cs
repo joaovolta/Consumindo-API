@@ -14,6 +14,8 @@ internal class Musica
     public int Duracao { get; set; }
     [JsonPropertyName("genre")]
     public string? Genero { get; set; }
+    [JsonPropertyName("year")]
+    public string? Ano { get; set; }
 
     public void ExibirDetalhes()
     {
@@ -21,5 +23,6 @@ internal class Musica
         System.Console.WriteLine($"Artista: {Artista}");
         System.Console.WriteLine($"Duração: {Duracao} ms");
         System.Console.WriteLine($"Gênero: {Genero}");
+        System.Console.WriteLine($"Ano: {Ano}");
     }
 }
