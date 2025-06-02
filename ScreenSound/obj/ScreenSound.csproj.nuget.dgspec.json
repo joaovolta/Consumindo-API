@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JoaoVolta\\OneDrive\\Documentos\\Curso-Csharp-Alura\\04-ConsumindoAPI\\03-Linq\\ScreenSound04\\ScreenSound\\ScreenSound.csproj": {}
+    "C:\\Users\\joaov\\Documents\\Curso-Csharp-Alura\\Consumindo-API\\ScreenSound\\ScreenSound.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JoaoVolta\\OneDrive\\Documentos\\Curso-Csharp-Alura\\04-ConsumindoAPI\\03-Linq\\ScreenSound04\\ScreenSound\\ScreenSound.csproj": {
+    "C:\\Users\\joaov\\Documents\\Curso-Csharp-Alura\\Consumindo-API\\ScreenSound\\ScreenSound.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JoaoVolta\\OneDrive\\Documentos\\Curso-Csharp-Alura\\04-ConsumindoAPI\\03-Linq\\ScreenSound04\\ScreenSound\\ScreenSound.csproj",
+        "projectUniqueName": "C:\\Users\\joaov\\Documents\\Curso-Csharp-Alura\\Consumindo-API\\ScreenSound\\ScreenSound.csproj",
         "projectName": "ScreenSound",
-        "projectPath": "C:\\Users\\JoaoVolta\\OneDrive\\Documentos\\Curso-Csharp-Alura\\04-ConsumindoAPI\\03-Linq\\ScreenSound04\\ScreenSound\\ScreenSound.csproj",
-        "packagesPath": "C:\\Users\\JoaoVolta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JoaoVolta\\OneDrive\\Documentos\\Curso-Csharp-Alura\\04-ConsumindoAPI\\03-Linq\\ScreenSound04\\ScreenSound\\obj\\",
+        "projectPath": "C:\\Users\\joaov\\Documents\\Curso-Csharp-Alura\\Consumindo-API\\ScreenSound\\ScreenSound.csproj",
+        "packagesPath": "C:\\Users\\joaov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joaov\\Documents\\Curso-Csharp-Alura\\Consumindo-API\\ScreenSound\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\JoaoVolta\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\joaov\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

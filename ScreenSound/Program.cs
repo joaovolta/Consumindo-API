@@ -20,7 +20,29 @@ using (HttpClient client = new())
         // LinqOrder.ExibirListaDeArtistasPorOrdem(musicas); // Chama o método para exibir a lista de artistas em ordem alfabética
         // LinqFilter.FiltrarArtistasPorGeneroMusical(musicas, "pop"); // Chama o método para filtrar e exibir artistas por gênero musical
         // LinqFilter.FiltrarMusicasPorArtista(musicas, "Snoop Dogg"); // Chama o método para filtrar e exibir músicas por artista
-        LinqFilter.FiltrarMusicasPorAno(musicas, "2004"); // Chama o método para filtrar e exibir músicas por ano
+        // LinqFilter.FiltrarMusicasPorAno(musicas, "2004"); // Chama o método para filtrar e exibir músicas por ano
+
+        // MusicasFavoritas musicasFavoritasJoao = new MusicasFavoritas("João");
+
+        // musicasFavoritasJoao.AdicionarMusica(musicas[50]);
+        // musicasFavoritasJoao.AdicionarMusica(musicas[678]);
+        // musicasFavoritasJoao.AdicionarMusica(musicas[123]);
+        // musicasFavoritasJoao.AdicionarMusica(musicas[456]);
+        // musicasFavoritasJoao.AdicionarMusica(musicas[1248]);
+
+        // musicasFavoritasJoao.ExibirMusicas(); // Exibe as músicas favoritas de João
+
+        MusicasFavoritas musicasFavoritasJulia = new MusicasFavoritas("Julia");
+
+        musicasFavoritasJulia.AdicionarMusica(musicas[41]);
+        musicasFavoritasJulia.AdicionarMusica(musicas[891]);
+        musicasFavoritasJulia.AdicionarMusica(musicas[1892]);
+        musicasFavoritasJulia.AdicionarMusica(musicas[1432]);
+        musicasFavoritasJulia.AdicionarMusica(musicas[674]);
+
+        musicasFavoritasJulia.ExibirMusicas(); // Exibe as músicas favoritas de Julia
+
+        musicasFavoritasJulia.GerarArquivoJson(); // Gera um arquivo JSON com as músicas favoritas de Julia
     }
     catch (Exception ex)
     {
