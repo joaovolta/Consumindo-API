@@ -63,4 +63,16 @@ internal class LinqFilter
             System.Console.WriteLine($"- {musica}");
         }
     }
+
+    public static void FiltrarMusicasEmCsharp(List<Musica> musicas)
+    {
+        var musicasEmChsharp = musicas.Where(musicas => musicas.Key == 1)
+        .Select(musicas => musicas.Nome).Distinct().ToList();
+
+        System.Console.WriteLine("Músicas em C#:");
+        foreach (var musica in musicasEmChsharp)
+        {
+            System.Console.WriteLine($"- {musica}");
+        }
+    }
 }
